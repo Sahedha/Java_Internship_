@@ -1,0 +1,91 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+	--spiral traversal in a matrix:
+
+/*import java.util.*;
+class Main {
+    public static void main(String[] args) {
+       /* Scanner sc=new Scanner(System.in);
+        System.out.println("Try programiz.pro");
+        System.out.println("Enter m:");
+        int m=sc.nextInt();
+        int top=0; int bot=m; int left=0; int right=m;
+        int[][] mat=new int[m][m];
+        System.out.println("Enter matrix Elements:");
+        for(int i=0;i<m;i++){
+            for(int j=0;j<m;j++){
+                mat[i][j]=sc.nextInt();
+            }
+        }
+        for(int j=0;j<m;j++){
+            System.out.println(mat[left][j]+" ");
+        }
+    
+        for(top=top+1;top<bot;top++){
+            System.out.print(mat[top][bot]+" ");
+        }
+        for(right=right-1;right<
+        
+    }
+}*/
+
+	--count of Zeros after each 1
+
+import java.util.*;
+class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter n:");
+        int n=sc.nextInt();
+        int[] ar=new int[n];
+        for(int i=0;i<n;i++){
+            ar[i]=sc.nextInt();
+        }
+        int tc=0; int zc=0;
+        for(int i=0;i<n;i++){
+            if(ar[i]==1){
+                
+            }
+        }
+       /*for(int i=n-1;i>=0;i--){
+            /if(ar[i]==1){
+            /    tc=tc+zc;
+           / }
+           / else if(ar[i]==0){
+           /     zc++;
+          /  }
+        }*/
+        System.out.println("count of Zeros after each 1's: "+tc);
+    }
+}
+
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a=5;
+    printf("%d\n",++a + ++a);
+    a=5;
+    printf("%d\n",++a + a++);
+    a=5;
+    printf("%d\n",a++ + a++);
+    a=5;
+    printf("%d\n",a++ + ++a);
+    return 0;
+}
+
+14
+13
+11
+12
+
+
+=== Code Execution Successful ===
+
+
+
+
